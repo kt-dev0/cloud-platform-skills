@@ -1,0 +1,69 @@
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Python (scripts/) ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# --- Node (future tooling, e.g. markdown linting) ---
+node_modules/
+
+# --- Secrets & credentials: never commit ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+credentials
+credentials.json
+*service-account*.json
+*.publishsettings
+.azure/
+.aws/
+.oci/
+.config/gcloud/
+
+# --- Terraform (when testing skill templates) ---
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+!*.example.tfvars
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+tfplan
+*.tfplan
+
+# --- Bicep / ARM build output ---
+*.bicep.json
+
+# --- CDK / Pulumi ---
+cdk.out/
+.pulumi/
+
+# --- Local AI agent settings ---
+.claude/settings.local.json
+CLAUDE.local.md
+
+# --- Local test runs of skills (may contain real tenant/account data) ---
+.scratch/
+test-runs/
+*.local.md

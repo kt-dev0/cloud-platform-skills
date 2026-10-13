@@ -1,0 +1,65 @@
+{
+  "name": "cloud-platform-skills",
+  "owner": {
+    "name": "Kareem T"
+  },
+  "metadata": {
+    "description": "Community AI agent skills for cloud platform engineering, aligned to each provider's Well-Architected Framework.",
+    "version": "0.2.0"
+  },
+  "plugins": [
+    {
+      "name": "azure-platform-skills",
+      "description": "Azure platform engineering skills aligned to the Azure Well-Architected Framework and Cloud Adoption Framework.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/azure/azure-waf-review",
+        "./skills/azure/azure-landing-zone",
+        "./skills/azure/azure-hub-spoke-network",
+        "./skills/azure/azure-policy-governance",
+        "./skills/azure/azure-identity-rbac",
+        "./skills/azure/azure-monitoring-baseline"
+      ]
+    },
+    {
+      "name": "aws-platform-skills",
+      "description": "AWS platform engineering skills aligned to the AWS Well-Architected Framework.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/aws/aws-well-architected-review",
+        "./skills/aws/aws-landing-zone",
+        "./skills/aws/aws-network-hub",
+        "./skills/aws/aws-iam-least-privilege",
+        "./skills/aws/aws-observability-baseline"
+      ]
+    },
+    {
+      "name": "gcp-platform-skills",
+      "description": "Google Cloud platform engineering skills aligned to the Google Cloud Well-Architected Framework.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/gcp/gcp-well-architected-review",
+        "./skills/gcp/gcp-landing-zone",
+        "./skills/gcp/gcp-shared-vpc-network",
+        "./skills/gcp/gcp-iam-least-privilege",
+        "./skills/gcp/gcp-observability-baseline"
+      ]
+    },
+    {
+      "name": "oci-platform-skills",
+      "description": "Oracle Cloud Infrastructure platform engineering skills aligned to the Well-Architected Framework for OCI.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/oci/oci-well-architected-review",
+        "./skills/oci/oci-landing-zone",
+        "./skills/oci/oci-hub-spoke-network",
+        "./skills/oci/oci-iam-policies",
+        "./skills/oci/oci-observability-baseline"
+      ]
+    }
+  ]
+}
