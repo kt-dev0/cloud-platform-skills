@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.svg" alt="Cloud Platform Skills: AI agent skills for cloud platform engineering, aligned to the Well-Architected Framework" width="100%">
+</p>
+
 # Cloud Platform Skills
 
 Community-maintained **AI agent skills for cloud platform engineering**. Each skill teaches an AI agent (Claude Code, Claude.ai, or any tool that supports the open [Agent Skills](https://agentskills.io) format) how to do a real platform engineering task the way the cloud provider recommends: aligned to its Well-Architected Framework, secure by default, and backed by official documentation.

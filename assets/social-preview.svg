@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="Cloud Platform Skills: AI agent skills for cloud platform engineering">
+  <defs>
+    <linearGradient id="scanvas" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1023"/>
+      <stop offset="1" stop-color="#1E1B4B"/>
+    </linearGradient>
+    <radialGradient id="sglow" cx="0.2" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#4F46E5" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#4F46E5" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="sgrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="640" fill="url(#scanvas)"/>
+  <rect width="1280" height="640" fill="url(#sgrid)"/>
+  <rect width="1280" height="640" fill="url(#sglow)"/>
+  <svg x="96" y="192" width="256" height="256" viewBox="0 0 256 256"><defs>
+    <linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0EA5E9"/>
+      <stop offset="0.55" stop-color="#4F46E5"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="slayer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0EA5E9"/>
+      <stop offset="1" stop-color="#6D28D9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- tile -->
+  <rect width="256" height="256" rx="56" fill="url(#sbg)"/>
+
+  <g transform="translate(0 10)">
+  <!-- cloud -->
+  <g fill="#FFFFFF">
+    <circle cx="96" cy="128" r="38"/>
+    <circle cx="140" cy="106" r="50"/>
+    <circle cx="184" cy="136" r="32"/>
+    <rect x="58" y="128" width="158" height="54" rx="27"/>
+  </g>
+
+  <!-- platform layers (isometric stack) -->
+  <g fill="none" stroke="url(#slayer)" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M137 108 L169 124 L137 140 L105 124 Z" fill="url(#slayer)" stroke="none"/>
+    <path d="M105 139 L137 155 L169 139"/>
+    <path d="M105 156 L137 172 L169 156" opacity="0.55"/>
+  </g>
+
+  </g>
+
+  <!-- AI sparkle -->
+  <path fill="#FFFFFF" d="M206 34 C208 52 214 58 232 60 C214 62 208 68 206 86 C204 68 198 62 180 60 C198 58 204 52 206 34 Z"/>
+  <path fill="#FFFFFF" opacity="0.85" d="M178 22 C179 30 182 33 190 34 C182 35 179 38 178 46 C177 38 174 35 166 34 C174 33 177 30 178 22 Z"/>
+</svg>
+  <g font-family="-apple-system, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="400" y="262" font-size="72" font-weight="700" fill="#FFFFFF" letter-spacing="-1">Cloud Platform Skills</text>
+    <text x="400" y="319.0" font-size="30" fill="#C7D2FE">AI agent skills for cloud platform engineering,</text>
+    <text x="400" y="359.5" font-size="30" fill="#C7D2FE">aligned to the Well-Architected Framework.</text>
+    <rect x="400" y="420" width="92" height="46" rx="23.0" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.22"/><text x="446.0" y="450.2" font-size="20" text-anchor="middle" fill="#E0E7FF">Azure</text><rect x="504" y="420" width="68" height="46" rx="23.0" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.22"/><text x="538.0" y="450.2" font-size="20" text-anchor="middle" fill="#E0E7FF">AWS</text><rect x="584" y="420" width="176" height="46" rx="23.0" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.22"/><text x="672.0" y="450.2" font-size="20" text-anchor="middle" fill="#E0E7FF">Google Cloud</text><rect x="772" y="420" width="176" height="46" rx="23.0" fill="#FFFFFF" fill-opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.22"/><text x="860.0" y="450.2" font-size="20" text-anchor="middle" fill="#E0E7FF">Oracle Cloud</text>
+  </g>
+</svg>
